@@ -1,24 +1,41 @@
+@font-face {
+    font-family: 'avantgarde_lt_mediumbold';
+    src: url('/assets/fonts/itc-avant-garde-gothic-lt-bold_1-webfont.woff2') format('woff2'),
+         url('/assets/fonts/itc-avant-garde-gothic-lt-bold_1-webfont.woff') format('woff'),
+         url('/assets/fonts/itc-avant-garde-gothic-lt-bold.ttf') format('tff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0px;
-    background-color: brown;
+    font-family: 'avantgarde_lt_mediumbold', Arial, sans-serif;
 }
 
 .container {
     display: flex;
-    background-color: burlywood;
+    background-image: url("../assets/images/backg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .box {
-    background-color:blueviolet;
     display: flex;
     justify-content: space-between;
 }
 
+.box-text {
+    background-color: chocolate;
+    width: 450px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
 .topnav {
-    background-color: #333;
+    background-color: #d62828;
     overflow: hidden;
 }
 
@@ -39,4 +56,33 @@ body {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
+
+p{
+    color: #eae2b7;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+h1 {
+    color: #f77f00;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #fcbf49;
+    font-size: 40px;
+    margin-bottom: 250px;
+}
+
+.credits {
+    padding-top: 60px;
 }
