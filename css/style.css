@@ -9,7 +9,7 @@
 
 body {
     margin: 0px;
-    background-color: rgb(40, 40, 40);
+    background-color: #282828;
     font-family: 'minecrafter_altregular', Arial, sans-serif;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .box-text {
-    background-color:rgb(60, 60, 60);
+    background-color:#3c3c3c;
     padding: 20px;
     width: 100%;
     display: flex;
@@ -49,6 +49,7 @@ body {
 }
 
 .topnav a:hover {
+    color: #808080;
     background-color: #ddd;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .topnav a.active:hover {
-    background-color: yellow;
+    background-color: #fbec5d;
 }
 
 img {
@@ -96,9 +97,9 @@ h2 {
 }
 
 .link {
-    color:yellow;
+    color: #fbec5d;
 }
 
 .link:hover {
-    color:yellowgreen;
+    color: #04AA6D;
 }
