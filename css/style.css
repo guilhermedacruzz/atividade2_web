@@ -43,11 +43,13 @@ body {
 
 .topnav a {
     float: left;
+    width: 9%;
+    height: 4%;
     color: #edf2f4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .topnav a:hover {
