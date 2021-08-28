@@ -22,6 +22,7 @@ body {
 
 .box {
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -30,6 +31,7 @@ body {
     background-color:#3c3c3c;
     padding: 20px;
     width: 100%;
+    height: auto;
     display: flex;
     flex-flow: column wrap;
 }
@@ -65,7 +67,6 @@ img {
     height: auto; 
     width: auto; 
     max-width: 50%; 
-    max-height: 50%;
     filter: grayscale(50%);
 }
 
